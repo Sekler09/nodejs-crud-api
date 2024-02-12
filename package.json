@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-crud-api",
+  "version": "1.0.0",
+  "description": "RSSchool NodeJS 2024 Q1 task-4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start:dev": "nodemon src/index.ts",
+    "start:prod": "npm run build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
